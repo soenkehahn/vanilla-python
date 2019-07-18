@@ -7,8 +7,7 @@ test:
   pytest
 
 run:
-  echo nyi
-  exit 1
+  python3 src/vanilla.py
 
 watch:
   fd | entr -cr just test
